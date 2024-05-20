@@ -17,7 +17,7 @@
   <img alt="rocket" src="public/assets/capa-clara.png" width="100%">
 </p>
 <p align="center">
-  <img alt="rocket" src="public/assets/capa-escura.png.png" width="100%">
+  <img alt="rocket" src="public/assets/capa-escura.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
