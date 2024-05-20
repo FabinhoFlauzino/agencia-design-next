@@ -40,12 +40,7 @@ Dessa forma você poderá colocar em prática os seguintes conceitos:
 </p>
 
 ## 🔖 Layout
-<p align="center">
-  <img alt="rocket" src="public/assets/capa-clara.png" width="100%">
-</p>
-<p align="center">
-  <img alt="rocket" src="public/assets/capa-escura.png.png" width="100%">
-</p>
+
 
 ## :memo: Licença
 
