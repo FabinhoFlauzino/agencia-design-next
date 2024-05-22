@@ -1,16 +1,19 @@
 .banner_container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  align-items: center;
   height: 60vh;
 }
 
 .banner_imagem {
   height: 100%;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 50%;
 }
 
 .banner_imagem img {
-  width: 100%;
   height: 100%;
   object-fit: cover;
 }
@@ -20,10 +23,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  height: 100%;
   gap: 5px;
   background-color: var(--var-bg-hero);
   padding: 20px;
   color: var(--color-text-hero);
+  flex: 1 1 50%;
 }
 
 .banner_content p {
@@ -42,10 +47,6 @@
 }
 
 @media (max-width: 768px) {
-  .banner_container {
-    grid-template-columns: 1fr;
-  }
-
   .banner_imagem {
     display: none;
   }

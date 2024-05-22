@@ -2,7 +2,7 @@ import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import Topo from "@/components/Topo";
 import Banner from "@/components/Banner";
-import Exeperiencia from "@/components/Exeperiencia";
+import Exeperiencia from "@/components/Experiencia";
 import Rodape from "@/components/Rodape";
 import { useState } from "react";
 
