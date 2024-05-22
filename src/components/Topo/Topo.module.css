@@ -10,6 +10,7 @@
 
 .container.dark_mode {
   background-color: var(--var-bg-dark);
+  border-bottom: 1px solid #333;
 }
 
 .container_content{

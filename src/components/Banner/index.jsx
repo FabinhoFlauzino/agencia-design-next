@@ -5,9 +5,7 @@ import Image from 'next/image';
 const Banner = () => {
   return (
     <div className={styles.banner_container}>
-      <div className={styles.banner_imagem}>
-        <Image src={ImagemBanner} alt="Imagem de um rapaz segurando notebook e caneta"/>
-      </div>
+      <div className={styles.banner_imagem}></div>
       <div className={styles.banner_content}>
         <p>BRANDING / UI / UX / TECNOLOGIA</p>
         <h1>Agência de Branding</h1>

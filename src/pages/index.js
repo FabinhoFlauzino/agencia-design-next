@@ -23,10 +23,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main} ${tema ? 'dark-mode' : 'light-mode'}`}>
-        <Topo tipoTema={tema} setState={mudarTema}/>
+        <Topo darkTheme={tema} setState={mudarTema}/>
         <Banner />
-        <Exeperiencia />
-        <Rodape />
+        <Exeperiencia darkTheme={tema}/>
+        <Rodape darkTheme={tema}/>
       </main>
     </>
   );
